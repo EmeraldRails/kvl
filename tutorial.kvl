@@ -1,0 +1,32 @@
+_delim-%-
+
+++
+The sample/tutorial KVL file from git.io/kvl
+Be sure to check out git.io/kvl-wiki and git.io/kvl-download
+++
+
+author_name-EmeraldRails > Basic key-value
+author_website-emeraldrails.github.io > ditto. we set the delimeter with the first line: _delim-%-
+> The default delimiter is "-"
+author_is_cool-&true > A Boolean - set by "&boolean"
+
+++
+This is all fine and dandy,
+but they all start with "author"
+++
+> By the way, these are comments
+author-[
+> Cool, a structure!
+name-EmeraldRails > We can access this by the key "author..name"
+website-emeraldrails.github.io
+is_cool-&true 
+]
+
+++
+Some more cool features
+++
+> I want to use a hyphen!
+wiki_link-git.io/kvl%-wiki > escapes to: key:wiki_link value:git.io/kvl-wiki
+> Escape character is "%"
+percent_done-100%% > evaluates to "100%"
+> Bye, and happy KVLing
